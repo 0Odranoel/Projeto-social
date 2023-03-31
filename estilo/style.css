@@ -27,3 +27,26 @@ main{
     transform: translate(-50%,-50%);
     background: url(../imagens/frame-iphone\ \(1\).png) no-repeat
 }
+#tela{
+    position: relative;
+    left: 7%;
+    top: 13%;
+    width: 178px;
+    height: 315px;
+}
+#sociais img {
+    width: 50px;
+    margin: 10px; 
+    border-radius:50% ;
+}
+#sociais{
+    text-align: right;
+}
+#sociais img:hover{
+    position: relative;
+    transform: translate(-20px);
+    border: 1px solid rgba(255, 255, 255, 0.798);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.604);
+    transition: transform 0.4s, border 1s ;
+
+}
